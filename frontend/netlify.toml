@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://beat-claude.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+**2.** Terminal mein chalaao:
+```
+npm run build
